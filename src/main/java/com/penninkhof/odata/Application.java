@@ -13,6 +13,7 @@ import com.penninkhof.odata.entities.Member;
 import com.penninkhof.odata.repository.MemberRepository;
 
 @SpringBootApplication
+
 public class Application extends SpringBootServletInitializer {
 
 	private static final Logger log = LoggerFactory.getLogger(Application.class);
