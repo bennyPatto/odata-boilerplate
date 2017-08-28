@@ -1,12 +1,12 @@
 sap.ui.define([
-	"com/penninkhof/odata/controller/BaseController",
+	"com/exactratio/odata/controller/BaseController",
 	"sap/m/MessageBox",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator"
 ], function(Controller, MessageBox, Filter, FilterOperator) {
 	"use strict";
 
-	return Controller.extend("com.penninkhof.odata.controller.AddMember", {
+	return Controller.extend("com.exactratio.odata.controller.AddMember", {
 
 		onInit: function() {
 			this.i18n = this.getComponent().getModel("i18n").getResourceBundle();

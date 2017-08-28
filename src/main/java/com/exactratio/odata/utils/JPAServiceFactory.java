@@ -1,4 +1,4 @@
-package com.penninkhof.odata.utils;
+package com.exactratio.odata.utils;
 
 import javax.persistence.EntityManagerFactory;
 
